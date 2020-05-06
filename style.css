@@ -151,3 +151,9 @@
     color: white;
     font-weight: bolder;
 }
+
+@media screen and (max-width: 720px) {
+    .quiz-landing-page {
+        min-width: 80vw;
+    }
+}
