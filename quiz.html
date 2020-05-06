@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer async></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="score-container">
+            <div id="answered">
+                
+            </div>
+            
+            <div id="score">
+                Your Score: 0
+            </div>
+        </div>
+
+        <div id="question" class="question">
+           
+        </div>
+        
+        <div class="options">
+        <div id="0" class="option1" onclick="check(this)"></div>
+
+        <div id="1" class="option2" onclick="check(this)"></div>
+
+        <div id="2" class="option3" onclick="check(this)"></div>
+        
+        <div id="3" class="option4" onclick="check(this)"></div>
+    </div>
+
+        <button id="next-question" onclick="next()">Next Question</button>
+
+        <h3 style=" color: teal; margin: 15px 0px;">Made With Frustration by: <a style="color: teal" href="https://github.com/aphatheology" target="_blank">Abdulkareem Mustapha | Aphatheology</a></h3>
+    </div>
+
+    <div class="quizover">
+        <div class="container">
+        <h1>Thanks for completing the quiz <br><br>
+            You got <span class="correctanswers"></span> out of <span class="totalquestions"></span>  questions correctly! <br> <br>
+            That's <span class="percentagescore"></span> 
+        </h1>
+        <button id="" onclick="tryAgain()">Try Again</button>
+
+        <h3 style=" color: teal; margin: 15px 0px;">Made With Frustration by: <a style="color: teal" href="https://github.com/aphatheology" target="_blank">Abdulkareem Mustapha | Aphatheology</a></h3>
+    </div>
+    
+    </div>
+</body>
+</html>
